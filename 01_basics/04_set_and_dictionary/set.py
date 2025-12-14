@@ -15,7 +15,7 @@ my_set.pop()  # removes and returns an arbitrary element from the set
 my_set.union({7,8,9})  # returns a new set with elements from both sets
 my_set.intersection({4,5,6,7})  # returns a new set with elements common to both sets
 my_set.symmetric_difference({5,6,7,8})  # returns a new set with elements in either set but not in both
-my_set.update({10,11,12})  # adds elements from another set to my_set
+new_set=my_set.update({10,11,12})  # adds elements from another set to my_set
 my_set.difference({4,5})  # returns a new set with elements in my_set but not in the other set
 
 print(len(my_set))
